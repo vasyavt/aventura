@@ -1,0 +1,105 @@
+     * {
+         margin: 0px auto;
+         color: black;
+         max-width: 800px;
+         text-decoration: none;
+         box-sizing: border-box;
+     }
+
+     /* Header CSS */
+     header {
+         overflow: hidden;
+         background-color: aqua;
+         font-size: 25px;
+         padding-top: 20px;
+     }
+
+     #logo {
+         float: left;
+         width: 25%;
+     }
+
+     #mainTitle {
+         text-align: center;
+         overflow: hidden;
+     }
+
+     #subTitle {
+         text-align: center;
+         margin-top: 10px;
+         overflow: hidden;
+     }
+
+     /* Navigation CSS */
+     nav {
+         width: 100%;
+         background-color: yellow;
+         overflow: auto;
+     }
+
+     nav a {
+         float: left;
+         padding: 12px;
+         font-size: 17px;
+         width: 33.33%;
+         text-align: center;
+     }
+
+     nav a:hover {
+         background-color: green;
+     }
+
+     /* Section CSS */
+     h1 {
+         text-align: center;
+         line-height: 100px;
+     }
+
+     .TextImage {
+         padding-top: 10px;
+         padding-right: 10px;
+         width: 70%;
+         float: left;
+     }
+
+     section p {
+         text-align: justify;
+     }
+
+     /* Section CSS */
+     footer {
+         margin: 20px 0;
+         background-color: aqua;
+         text-align: center;
+     }
+
+
+
+     /* Destinations Page CSS */
+
+     .grid-container {
+         display: grid;
+         grid-template-columns: auto auto auto;
+         grid-gap: 10px;
+     }
+
+     .grid-container img {
+         width: 100%;
+     }
+
+     .pic-container {
+         position: relative;
+         text-align: center;
+     }
+
+     .pic-title {
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-70%, -50%);
+     }
+
+     .pic-title a {
+         color: wheat;
+         padding: 20%;
+     }
